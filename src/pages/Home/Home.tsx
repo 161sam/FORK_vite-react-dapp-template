@@ -20,9 +20,9 @@ import logo from './assets/images/logo.svg';
 
 export const HomePage: React.FC = () => {
   const { t } = useTranslation('PageHome');
-  const title: string = t('React dApp Template (Vite)');
+  const title: string = t('Produkt Finanzierung');
   const description: string = t(
-    'React dApp Template (Vite) is a Vite React template specifically designed for decentralized application (dApp) frontend development.'
+    'Hier wird die Finanzierung der Produkte von EcoSphereNetwork transparent dargestellt.'
   );
   return (
     <>
@@ -63,7 +63,7 @@ export const HomePage: React.FC = () => {
             lineHeight="110%"
             textAlign="center"
           >
-            {t('experience the full power of React for dApp development')}
+            {t('Transparente Finanzierung von EcoSphereNetwork Produkten')}
             <br />
             <Text as="span" color="blue.400">
               {title}
