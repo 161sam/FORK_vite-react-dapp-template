@@ -94,7 +94,7 @@ export const HomePage: React.FC = () => {
               size="xs"
               rightIcon={<FaExternalLinkAlt />}
             >
-              {t('Learn React')}
+              {t('Produktübersicht')}
             </Button>
             <Button
               as={Link}
@@ -105,7 +105,7 @@ export const HomePage: React.FC = () => {
               size="xs"
               rightIcon={<FaExternalLinkAlt />}
             >
-              {t('Learn React dApp Template (Vite)')}
+              {t('Werde Investor')}
             </Button>
           </Stack>
         </Stack>
